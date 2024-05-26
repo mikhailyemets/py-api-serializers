@@ -62,4 +62,3 @@ class ActorViewSet(viewsets.ModelViewSet):
 class CinemaHallViewSet(viewsets.ModelViewSet):
     queryset = CinemaHall.objects.all()
     serializer_class = CinemaHallSerializer
-
